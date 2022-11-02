@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "Cyberpunk_RUS_BY_LYAJKA";
+    src: url(/Fonts/Cyberpunk_RUS_BY_LYAJKA.ttf);
+}
+
+.header {
+    text-align: center;
+    font-family:Cyberpunk_RUS_BY_LYAJKA;
+    color:yellow;
+    text-shadow: 2px;
+    font-size:xx-large;
+    text-shadow: rgb(255, 0, 0) 1px 0 10px;
+}
+
+body {
+    background: url(/Images/1054256.jpg) no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+
+h2 {
+    text-align: center;
+    font-family:Cyberpunk_RUS_BY_LYAJKA;
+    color:yellow;
+    text-shadow: 2px;
+    font-size:xx-large;
+    text-shadow: rgb(255, 0, 0) 1px 0 10px;
+}
+
+p {
+    text-align: center;
+}
+
+li {
+    text-align: center;
+}
+
+.img-geral {
+    width: 800px;
+    height: 500px;
+    margin: 0 auto;
+    text-align: center;
+    background-color:rgba(18, 47, 97, 0.534);
+    padding: 30px;
+    border-radius: 50%;
+}
+
+.img {
+    border-radius: 70%;
+    width: auto;
+}
+
+#header-nav {
+    margin: auto;
+    padding: 50px;
+    color: rgb(255, 196, 0);
+    font-size: 20px;
+    font-family:Cyberpunk_RUS_BY_LYAJKA;
+    font-size:xx-large;
+}
+
+#header-nav1 {
+    margin: 0 100px;
+    padding: 30px;
+    background-color:rgba(12, 42, 81, 0.681);
+    color:rgb(245, 245, 23);
+    border: auto;
+    border-color: rgb(227, 255, 14);
+    border-style: groove;
+}
+
+#header-nav1:hover {
+    background: #786b59; 
+    color: #ffe;
+    transition: 0.7s;
+}
